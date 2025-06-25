@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 def merge_files(date: str) -> str:
-    input_dir = f"data/raw/{date}"
-    output_file = "data/processed/meteo_global.csv"
+    input_dir = f"/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/raw/{date}"
+    output_file = "/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/processed/meteo_global.csv"
     
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     

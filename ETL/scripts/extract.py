@@ -33,10 +33,10 @@ def extract_meteo(city: str, api_key: str, date: str) -> bool:
             'description': data['weather'][0]['description'],
         }
 
-        os.makedirs(f"data/raw/{date}", exist_ok=True)
+        os.makedirs(f"/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/raw/{date}", exist_ok=True)
 
         pd.DataFrame([weather_data]).to_csv(
-            f"data/raw/{date}/meteo_{city}.csv", 
+            f"/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/raw/{date}/meteo_{city}.csv", 
             index=False
         )
 

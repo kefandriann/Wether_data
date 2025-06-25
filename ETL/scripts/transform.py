@@ -3,8 +3,8 @@ import os
 
 def transform_to_star() -> str:
 
-    input_file = "data/processed/meteo_global.csv"  # Fichier source
-    output_dir = "data/star_schema"                # Dossier de sortie
+    input_file = "/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/processed/meteo_global.csv"
+    output_dir = "/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/star_schema"
     os.makedirs(output_dir, exist_ok=True)
 
     meteo_data = pd.read_csv(input_file)
