@@ -21,7 +21,12 @@ default_args = {
 }
 
 cities = [
-    "Paris"
+    "Paris", "Londres",
+    "New York", "Los Angeles",
+    "São Paulo", "Buenos Aires",
+    "Tokyo", "Dubaï",
+    "Johannesburg", "Lagos",
+    "Sydney", "Melbourne"
 ]
 
 with DAG(

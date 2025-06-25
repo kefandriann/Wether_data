@@ -22,8 +22,8 @@ def merge_files(date: str) -> str:
     
     updated_df = pd.concat([global_df] + new_data, ignore_index=True)
     updated_df = updated_df.drop_duplicates(
-        subset=['ville', 'date_extraction'],  # Clé unique
-        keep='last'                          # Garde la dernière version
+        subset=['ville', 'date_extraction'],
+        keep='last'
     )
     
     updated_df.to_csv(output_file, index=False)

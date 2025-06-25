@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+Paris,2025-06-25,48.8534,2.3488,34.32,1011,32,4.63,240,0,10000,Clear,clear sky

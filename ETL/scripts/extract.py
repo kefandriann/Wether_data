@@ -19,7 +19,7 @@ def extract_meteo(city: str, api_key: str, date: str) -> bool:
 
         weather_data = {
             'ville': city,
-            'date_extraction': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            'date_extraction': datetime.now().strftime("%Y-%m-%d"),
             'latitude': data['coord']['lat'],
             'longitude': data['coord']['lon'],
             'temperature': data['main']['temp'],

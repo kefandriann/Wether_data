@@ -1,0 +1,13 @@
+ville_id,date_id,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+12,20250625,7.98,1014,62,5.14,320,0,10000,Clear,clear sky
+2,20250625,37.96,993,44,5.66,310,0,10000,Clear,clear sky
+1,20250625,17.14,1016,45,0.89,60,0,10000,Clear,clear sky
+7,20250625,29.32,1012,70,3.24,217,100,10000,Clouds,overcast clouds
+9,20250625,25.63,1012,56,2.24,125,100,10000,Clouds,overcast clouds
+10,20250625,16.57,1015,84,1.54,170,100,10000,Clouds,overcast clouds
+6,20250625,28.37,1021,79,4.12,60,20,10000,Clouds,few clouds
+8,20250625,31.55,1017,60,5.14,320,20,10000,Clouds,few clouds
+11,20250625,34.32,1011,32,4.63,240,0,10000,Clear,clear sky
+4,20250625,10.04,1014,61,4.63,220,20,10000,Clouds,few clouds
+3,20250625,9.87,1025,80,4.12,70,75,6000,Clouds,broken clouds
+5,20250625,26.12,1013,87,3.6,90,75,10000,Clouds,broken clouds
