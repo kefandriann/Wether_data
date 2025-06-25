@@ -16,17 +16,28 @@ def extract_meteo(city: str, api_key: str, date: str) -> bool:
         response = requests.get(url, params=params, timeout=10)
         response.raise_for_status()
         data = response.json()
-        # To complete
+
         weather_data = {
             'ville': city,
-
+            'date_extraction': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            'latitude': data['coord']['lat'],
+            'longitude': data['coord']['lon'],
+            'temperature': data['main']['temp'],
+            'pressure': data['main']['pressure'],
+            'humidity': data['main']['humidity'],
+            'wind_speed': data['wind']['speed'],
+            'wind_degree': data['wind']['deg'],
+            'clouds': data['clouds']['all'],
+            'visibility': data.get('visibility', None),
+            'main': data['weather'][0]['main'],
+            'description': data['weather'][0]['description'],
         }
 
         os.makedirs(f"data/raw/{date}", exist_ok=True)
 
         pd.DataFrame([weather_data]).to_csv(
             f"data/raw/{date}/meteo_{city}.csv", 
-            index=False  # Pas d'enregistrement de l'index
+            index=False
         )
 
         return True
