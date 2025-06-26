@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+Melbourne,2025-06-26,28.0836,-80.6081,29.71,1019,64,3.09,100,0,10000,Clear,clear sky

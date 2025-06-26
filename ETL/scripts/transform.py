@@ -41,7 +41,7 @@ def transform_to_star() -> str:
         nouvelles_dates = set(meteo_data['date_extraction']) - dates_existantes
 
         if nouvelles_dates:
-            nouvelles_dates_parsed = [pd.to_datetime(d) for d in nouvelles_dates]
+            nouvelles_dates_parsed = [pd.to_datetime(d, format="%Y-%m-%d") for d in nouvelles_dates]
             nouvelles_lignes_dates = pd.DataFrame({
                 'date_id': [d.strftime('%Y%m%d') for d in nouvelles_dates_parsed],
                 'date': nouvelles_dates_parsed,
@@ -61,8 +61,6 @@ def transform_to_star() -> str:
 
         assert not meteo_ville.empty, "[ERREUR] meteo_ville est vide après le merge !"
 
-        meteo_ville['date_extraction'] = pd.to_datetime(meteo_ville['date_extraction'])
-
         meteo_final = pd.merge(
             meteo_ville,
             dim_date.rename(columns={'date': 'date_extraction'}),
@@ -70,6 +68,8 @@ def transform_to_star() -> str:
             how='left'
         )
 
+        meteo_ville['date_extraction'] = pd.to_datetime(meteo_ville['date_extraction'])
+        
         fact_meteo = meteo_final[[
             'ville_id', 'date_id',
             'temperature', 'pressure', 'humidity',

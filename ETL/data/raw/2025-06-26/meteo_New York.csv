@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+New York,2025-06-26,40.7143,-74.006,21.98,1017,68,9.77,60,100,10000,Clouds,overcast clouds
