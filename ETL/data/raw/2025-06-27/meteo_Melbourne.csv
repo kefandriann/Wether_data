@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+Melbourne,2025-06-27,28.0836,-80.6081,31.02,1020,71,5.14,90,40,10000,Clouds,scattered clouds

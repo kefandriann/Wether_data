@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+Paris,2025-06-27,48.8534,2.3488,27.65,1024,54,4.12,270,40,10000,Clouds,scattered clouds
