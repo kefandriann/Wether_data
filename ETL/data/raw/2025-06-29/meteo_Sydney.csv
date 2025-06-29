@@ -1,2 +1,2 @@
 ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
-Sydney,2025-06-29,-33.8679,151.2073,12.49,1025,73,1.03,100,77,10000,Clouds,broken clouds
+Sydney,2025-06-29,-33.8679,151.2073,11.97,1025,78,2.06,180,40,10000,Clouds,scattered clouds
