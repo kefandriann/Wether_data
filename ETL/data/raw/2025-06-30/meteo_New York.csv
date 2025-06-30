@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+New York,2025-06-30,40.7143,-74.006,24.22,1016,68,2.57,30,0,10000,Clear,clear sky

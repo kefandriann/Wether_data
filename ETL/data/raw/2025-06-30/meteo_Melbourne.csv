@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+Melbourne,2025-06-30,28.0836,-80.6081,22.84,1019,94,1.54,160,0,10000,Mist,mist

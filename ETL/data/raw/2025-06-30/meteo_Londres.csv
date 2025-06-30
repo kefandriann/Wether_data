@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+Londres,2025-06-30,51.5085,-0.1257,30.05,1017,48,3.58,94,0,10000,Clear,clear sky
