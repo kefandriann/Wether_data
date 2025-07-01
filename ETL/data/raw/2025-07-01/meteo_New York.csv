@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+New York,2025-07-01,40.7143,-74.006,32.18,1009,63,5.66,250,75,10000,Clouds,broken clouds

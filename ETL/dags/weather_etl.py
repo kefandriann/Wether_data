@@ -21,7 +21,7 @@ default_args = {
 }
 
 cities = [
-    "Paris", "Londres",
+    "Paris", "London",
     "New York", "Los Angeles",
     "São Paulo", "Buenos Aires",
     "Tokyo", "Dubaï",

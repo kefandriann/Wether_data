@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+Melbourne,2025-07-01,28.0836,-80.6081,29.53,1019,70,6.69,130,40,10000,Rain,light rain

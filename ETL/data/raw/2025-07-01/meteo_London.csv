@@ -1,0 +1,2 @@
+ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
+London,2025-07-01,51.5085,-0.1257,32.53,1013,39,4.12,270,83,10000,Clouds,broken clouds
