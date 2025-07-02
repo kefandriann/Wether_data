@@ -11,4 +11,8 @@ df2_common = df2[columns]
 
 df_concat = pd.concat([df1_common, df2_common], ignore_index=True)
 
+df_concat = df_concat[['ville', 'date_extraction', 'temperature', 'pressure', 'humidity', 'wind_speed', 'wind_degree', 'clouds', 'visibility']]
+
+df_concat = df_concat.drop(columns=['visibility'])
+
 df_concat.to_csv("C:/Users/kefuz/OneDrive/Desktop/Wether_data/Data_merge/data/processed/meteo_global.csv", index=False)
