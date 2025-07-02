@@ -1,6 +1,3 @@
-latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
--33.848858,151.19551,51.0,36000,Australia/Sydney,GMT+10
-
 time,weather_code (wmo code),temperature_2m_mean (°C),cloud_cover_mean (%),surface_pressure_mean (hPa),visibility_mean (undefined),wind_speed_10m_mean (km/h),relative_humidity_2m_mean (%),wind_direction_10m_dominant (°)
 2022-01-01,51,22.8,60,1006.6,NaN,17.2,73,35
 2022-01-02,1,23.2,5,1003.8,NaN,17.0,77,37

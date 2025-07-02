@@ -1,6 +1,3 @@
-latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
-25.06151,55.280174,27.0,14400,Asia/Dubai,GMT+4
-
 time,weather_code (wmo code),temperature_2m_mean (°C),cloud_cover_mean (%),surface_pressure_mean (hPa),visibility_mean (undefined),wind_speed_10m_mean (km/h),relative_humidity_2m_mean (%),wind_direction_10m_dominant (°)
 2022-01-01,65,20.5,67,1015.3,NaN,8.4,82,98
 2022-01-02,61,21.4,79,1010.0,NaN,20.6,77,156

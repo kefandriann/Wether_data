@@ -1,6 +1,3 @@
-latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
--26.186293,28.026318,1749.0,7200,Africa/Johannesburg,GMT+2
-
 time,weather_code (wmo code),temperature_2m_mean (°C),cloud_cover_mean (%),surface_pressure_mean (hPa),visibility_mean (undefined),wind_speed_10m_mean (km/h),relative_humidity_2m_mean (%),wind_direction_10m_dominant (°)
 2022-01-01,3,18.7,46,830.4,NaN,17.9,73,329
 2022-01-02,51,20.0,32,830.1,NaN,10.8,66,326
