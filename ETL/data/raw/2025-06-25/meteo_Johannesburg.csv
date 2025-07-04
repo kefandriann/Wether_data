@@ -1,2 +1,2 @@
 ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
-Johannesburg,2025-06-25,-26.2023,28.0436,17.14,1016,45,0.89,60,0,10000,Clear,clear sky
+Johannesburg,2025-06-25 14:26:43,-26.2023,28.0436,16.68,1017,42,0.89,163,0,10000,Clear,clear sky

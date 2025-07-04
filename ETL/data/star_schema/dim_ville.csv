@@ -1,14 +1,2 @@
-ville_id,ville,latitude,longitude
-1,Johannesburg,-26.2023,28.0436
-2,Dubaï,25.2582,55.3047
-3,São Paulo,-23.5475,-46.6361
-4,Sydney,-33.8679,151.2073
-5,Tokyo,35.6895,139.6917
-6,Melbourne,28.0836,-80.6081
-7,Lagos,6.5833,3.75
-8,New York,40.7143,-74.006
-9,Londres,51.5085,-0.1257
-10,Los Angeles,34.0522,-118.2437
-11,Paris,48.8534,2.3488
-12,Buenos Aires,-34.6132,-58.3772
-13,London,51.5085,-0.1257
+ville_id,ville
+1,Paris

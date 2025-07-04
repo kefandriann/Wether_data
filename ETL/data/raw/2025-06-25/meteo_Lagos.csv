@@ -1,2 +1,2 @@
 ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
-Lagos,2025-06-25,6.5833,3.75,29.32,1012,70,3.24,217,100,10000,Clouds,overcast clouds
+Lagos,2025-06-25 14:26:43,6.5833,3.75,29.04,1014,72,2.38,218,95,10000,Clouds,overcast clouds

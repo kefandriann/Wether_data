@@ -1,2 +1,2 @@
 ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
-Buenos Aires,2025-06-25,-34.6132,-58.3772,7.98,1014,62,5.14,320,0,10000,Clear,clear sky
+Buenos Aires,2025-06-25 14:26:42,-34.6132,-58.3772,7.1,1012,62,5.66,330,0,10000,Clear,clear sky

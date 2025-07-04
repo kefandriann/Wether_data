@@ -1,2 +1,2 @@
 ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
-Tokyo,2025-06-25,35.6895,139.6917,26.12,1013,87,3.6,90,75,10000,Clouds,broken clouds
+Tokyo,2025-06-25 14:26:42,35.6895,139.6917,26.7,1013,85,4.12,130,75,10000,Clouds,broken clouds

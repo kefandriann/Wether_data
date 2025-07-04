@@ -1,4 +1,4 @@
-ville,date_extraction,temperature,pressure,humidity,wind_speed,wind_degree,clouds
+ville,date,temperature,pressure,humidity,wind_speed,wind_degree,clouds
 Buenos Aires,2025-06-25,7.98,1014.0,62,5.14,320,0
 Dubaï,2025-06-25,37.96,993.0,44,5.66,310,0
 Johannesburg,2025-06-25,17.14,1016.0,45,0.89,60,0

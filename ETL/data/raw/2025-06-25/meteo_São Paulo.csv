@@ -1,2 +1,2 @@
 ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
-São Paulo,2025-06-25,-23.5475,-46.6361,9.87,1025,80,4.12,70,75,6000,Clouds,broken clouds
+São Paulo,2025-06-25 14:26:42,-23.5475,-46.6361,7.44,1025,86,3.6,90,75,4000,Mist,mist

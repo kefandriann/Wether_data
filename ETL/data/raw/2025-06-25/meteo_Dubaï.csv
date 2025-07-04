@@ -1,2 +1,2 @@
 ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
-Dubaï,2025-06-25,25.2582,55.3047,37.96,993,44,5.66,310,0,10000,Clear,clear sky
+Dubaï,2025-06-25 14:26:43,25.2582,55.3047,38.96,993,35,7.2,300,0,10000,Clear,clear sky

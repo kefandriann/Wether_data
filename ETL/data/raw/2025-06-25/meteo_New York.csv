@@ -1,2 +1,2 @@
 ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
-New York,2025-06-25,40.7143,-74.006,31.55,1017,60,5.14,320,20,10000,Clouds,few clouds
+New York,2025-06-25 14:26:43,40.7143,-74.006,29.11,1017,64,4.92,321,0,10000,Clear,clear sky

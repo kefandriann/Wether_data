@@ -1,2 +1,2 @@
 ville,date_extraction,latitude,longitude,temperature,pressure,humidity,wind_speed,wind_degree,clouds,visibility,main,description
-Los Angeles,2025-06-25,34.0522,-118.2437,16.57,1015,84,1.54,170,100,10000,Clouds,overcast clouds
+Los Angeles,2025-06-25 14:26:42,34.0522,-118.2437,16.41,1015,85,1.54,340,100,10000,Clouds,overcast clouds
