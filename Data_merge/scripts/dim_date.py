@@ -7,6 +7,7 @@ df = pd.read_csv("C:/Users/kefuz/OneDrive/Desktop/Wether_data/Data_merge/data/st
 meteo_global = pd.read_csv("C:/Users/kefuz/OneDrive/Desktop/Wether_data/Data_merge/data/processed/meteo_global.csv")
 meteo_global['date_extraction'] = pd.to_datetime(meteo_global['date_extraction'])
 
+# Create the dim_date DataFrame
 dim_date = pd.DataFrame()
 dim_date['date'] = meteo_global['date_extraction'].dt.date.astype(str)  # YYYY-MM-DD
 dim_date['date_id'] = meteo_global['date_extraction'].dt.strftime('%Y%m%d')  # YYYYmmdd

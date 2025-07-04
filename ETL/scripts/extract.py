@@ -7,16 +7,20 @@ import logging
 
 def extract_meteo(city: str, api_key: str, date: str) -> bool:
     try:
+        # API url and parameters
         url = "https://api.openweathermap.org/data/2.5/weather"
         params = {
             'q': city,
             'appid': api_key,
             'units': 'metric',
         }
+
+        #Fetching data from the API
         response = requests.get(url, params=params, timeout=10)
         response.raise_for_status()
         data = response.json()
 
+        # preparing the data
         weather_data = {
             'ville': city,
             'date_extraction': datetime.now().strftime("%Y-%m-%d"),
@@ -35,6 +39,7 @@ def extract_meteo(city: str, api_key: str, date: str) -> bool:
 
         os.makedirs(f"/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/raw/{date}", exist_ok=True)
 
+        # Save to csv
         pd.DataFrame([weather_data]).to_csv(
             f"/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/raw/{date}/meteo_{city}.csv", 
             index=False

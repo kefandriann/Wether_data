@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 
+# Merge recent datas with historical data
 df1 = pd.read_csv("C:/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/processed/meteo_global.csv")
 df2 = pd.read_csv("C:/Users/kefuz/OneDrive/Desktop/Wether_data/Historical_data/data/processed/meteo_global.csv")
 

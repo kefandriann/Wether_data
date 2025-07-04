@@ -3,7 +3,7 @@ import os
 
 def transform_to_star() -> str:
     try:
-
+        # Define input and output paths
         input_file = "/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/processed/meteo_global.csv"
         output_dir = "/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/star_schema"
         os.makedirs(output_dir, exist_ok=True)
@@ -13,6 +13,7 @@ def transform_to_star() -> str:
         dim_ville_path = f"{output_dir}/dim_ville.csv"
         dim_date_path = f"{output_dir}/dim_date.csv"
 
+        # Clean up column names, reading if exists, creating if not
         if os.path.exists(dim_ville_path):
             dim_ville = pd.read_csv(dim_ville_path)
         else:
@@ -21,6 +22,7 @@ def transform_to_star() -> str:
         villes_existantes = set(dim_ville['ville'])
         nouvelles_villes = set(meteo_data['ville']) - villes_existantes
 
+        # Concatenate new cities and dates if they do not exist
         if nouvelles_villes:
             nouveau_id = dim_ville['ville_id'].max() + 1 if not dim_ville.empty else 1
             nouvelles_lignes = pd.DataFrame({
@@ -52,6 +54,7 @@ def transform_to_star() -> str:
             dim_date = pd.concat([dim_date, nouvelles_lignes_dates], ignore_index=True)
             dim_date.to_csv(dim_date_path, index=False)
 
+        # Merge meteo_data with dim_ville and dim_date
         meteo_ville = pd.merge(
             meteo_data,
             dim_ville,
@@ -70,6 +73,7 @@ def transform_to_star() -> str:
 
         meteo_ville['date_extraction'] = pd.to_datetime(meteo_ville['date_extraction'])
         
+        # Save the final fact table
         fact_meteo = meteo_final[[
             'ville_id', 'date_id',
             'temperature', 'pressure', 'humidity',
