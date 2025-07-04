@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Define the folder containing the CSV files and the output directory
-folder_path = 'C:/Users/kefuz/OneDrive/Desktop/Wether_data/Historical_data/data/raw'
-output_dir = "C:/Users/kefuz/OneDrive/Desktop/Wether_data/Historical_data/data/processed"
+folder_path = 'C:/Users/kefuz/Desktop/Wether_data/Historical_data/data/raw'
+output_dir = "C:/Users/kefuz/Desktop/Wether_data/Historical_data/data/processed"
 os.makedirs(output_dir, exist_ok=True)
 
 csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]

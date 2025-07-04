@@ -4,8 +4,8 @@ import os
 def transform_to_star() -> str:
     try:
         # Define input and output paths
-        input_file = "/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/processed/meteo_global.csv"
-        output_dir = "/mnt/c/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/star_schema"
+        input_file = "/mnt/c/Users/kefuz/Desktop/Wether_data/ETL/data/processed/meteo_global.csv"
+        output_dir = "/mnt/c/Users/kefuz/Desktop/Wether_data/ETL/data/star_schema"
         os.makedirs(output_dir, exist_ok=True)
 
         meteo_data = pd.read_csv(input_file)

@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Merge recent datas with historical data
-df1 = pd.read_csv("C:/Users/kefuz/OneDrive/Desktop/Wether_data/ETL/data/processed/meteo_global.csv")
-df2 = pd.read_csv("C:/Users/kefuz/OneDrive/Desktop/Wether_data/Historical_data/data/processed/meteo_global.csv")
+df1 = pd.read_csv("C:/Users/kefuz/Desktop/Wether_data/ETL/data/processed/meteo_global.csv")
+df2 = pd.read_csv("C:/Users/kefuz/Desktop/Wether_data/Historical_data/data/processed/meteo_global.csv")
 
 columns = list(set(df1.columns).intersection(df2.columns))
 
@@ -16,4 +16,4 @@ df_concat = df_concat[['ville', 'date_extraction', 'temperature', 'pressure', 'h
 
 df_concat = df_concat.drop(columns=['visibility'])
 
-df_concat.to_csv("C:/Users/kefuz/OneDrive/Desktop/Wether_data/Data_merge/data/processed/meteo_global.csv", index=False)
+df_concat.to_csv("C:/Users/kefuz/Desktop/Wether_data/Data_merge/data/processed/meteo_global.csv", index=False)
